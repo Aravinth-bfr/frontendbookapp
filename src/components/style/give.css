@@ -1,0 +1,160 @@
+h4{
+	margin:0;
+	padding:0;
+}
+
+.giv_body{
+	align-items: center;
+	height: 100vh;
+}
+
+.nav_bar{
+	height:50px;
+	padding:10px;
+	padding-right: 30px;
+	align-items: center;
+	border-bottom: solid 2px #EDF2FB;
+}
+
+.give_container{
+    width: 60vw;
+    min-height: 70vh;
+    background-color: #EDF2FB;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.give_div{
+
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	min-height:87vh;
+
+}
+.content{
+
+	display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    min-height:65vh;
+    width:60vw;
+
+
+}
+.details{
+	width:30vw;
+	height:380px;
+	border-right: solid 2px rgba(0,0,0,0.1);
+	padding-right:10px;
+	padding-left:20px;
+
+}
+
+.donate_thankyou{
+	height:250px;
+	display:flex;
+	flex-direction:column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.submit{
+	width:30vw;
+	height:400px;
+	padding:10px;
+
+}
+
+.detail_form{
+	padding-left:10px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	align-items:left;
+
+}
+.details{
+	padding-left:10px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	align-items:left;
+}
+
+label{
+
+	font-size:15px;
+	padding:5px;
+
+}
+select{
+	font-size:15px;
+	padding:15px;
+	margin:0px;
+	width:29vw;
+	font-size:15px;
+	border-bottom: solid 2px red;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	background-color: #EDF2FB;
+}
+#selection:focus option:first-of-type {
+    display: none;
+}
+.signup_dialog h3{
+	margin: 0px
+}
+.submit_form input{
+		font-size:15px;
+		padding:5px;
+}
+
+.inputs{
+	padding:10px;
+	font-size:15px;
+	border-bottom: solid 2px red;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	background-color: #EDF2FB;
+}
+
+.detail_form button{
+	width:200px;
+	padding:10px;
+	margin:5px;
+	font-size:15px;
+	transition:0.5s; 
+
+}
+.detail_form button:hover{
+	transform: translateY(-5px);
+}
+.donate_button{
+	background-color:#00B4D8;
+	border-radius:5px;
+	border:solid 2px cyan;
+	color:white;
+}
+
+.selling_price{
+	border:solid 2px #00B4D8;
+	padding:10px;
+	border-radius: 5px;
+	margin:5px;
+	width:176px;
+}
+
+.sell_button{
+	border:solid 2px #3BB273;
+	border-radius: 5px;
+	color:#3BB273;
+	margin-top:10px;
+
+}

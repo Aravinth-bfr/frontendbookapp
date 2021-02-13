@@ -1,0 +1,305 @@
+h1{
+	margin:0;
+}
+.home_body{
+
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+
+.home_container{
+	
+	
+	width:60vw;
+	height:70vh;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding:20px;
+	border:solid 2px white;
+ 	background: rgba(255,255,255,0.4);
+ 	backdrop-filter: blur(10px);
+  	border: 1px solid rgba(255,255,255,0.2);
+
+}
+
+.intro{
+	background-color:white;
+	width: 25vw;
+	height:70vh;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	padding-left:20px;
+
+
+}
+
+.intro b p{
+padding-left:40px;
+}
+
+.intro .short_dic{
+	 font-weight: 1;
+}
+
+.intro a{
+	align-self: center;
+}
+
+.starting{
+	height:70vh;
+
+	width: 30vw;
+	display:flex;
+	flex-direction:column;
+	justify-content: space-between;
+}
+
+.nav_bar{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding:20px;
+}
+
+.nav_bar button{
+	margin:10px;
+	color:white;
+	font-size: 15px;
+}
+
+.login{
+	border:none;
+	outline: none;
+	padding:5px 10px;
+	background: none;
+
+}
+
+.signUp{
+	border:solid 2px #EDF2F4;
+	border-radius:5px;
+	outline: none;
+	padding:5px 10px;
+	background: none;
+
+
+}
+.signUp:hover{
+	cursor:pointer;
+	background-color:#CCDAE0;
+}
+.login:hover{
+	cursor:pointer;
+
+}
+.giveget_div {
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.giveget_div button{
+	padding:10px 20px;
+	width:200px;
+	margin:20px;
+	border-radius: 5px;
+	font-size:20px;
+	border:none;
+	outline:none;
+	color:white;
+	transition: 200px;
+}
+
+.give{
+
+	background-color: #FF0A54;
+	box-shadow: 2px 2px 0px 0px;
+
+}
+
+.get{
+
+	background-color: #00B4D8;
+	box-shadow: 2px 2px 0px 0px;
+
+}
+
+.get:hover {
+	cursor: pointer;
+}
+.give:hover {
+	cursor: pointer;
+}
+
+.get:active {
+	position: relative;
+	left:2px;
+	top:2px;
+	box-shadow: none;
+}
+.give:active {
+	position: relative;
+	left:2px;
+	top:2px;
+	box-shadow: none;
+}
+
+.login_dialog{
+	min-height: 60vh;
+	min-width: 30vw;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+
+.login_form{
+	width: 300px;
+	min-height:45vh;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: left;
+	padding: 20px;
+	border-left:solid 2px #FF0A54;
+	border-bottom:solid 2px #FF0A54;
+	border-right:solid 2px #00B4D8;
+	border-top:solid 2px #00B4D8;
+	align-self: center;
+	border-radius: 5px;
+	margin-bottom: 10px;
+
+}
+.login_input{
+
+	padding: 20px;
+	border-bottom:solid 2px #FF0A54;
+	outline: none;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+
+}
+
+.login_submit_div{
+	display:flex;
+	flex-direction:row;
+	justify-content: flex-end;
+}
+
+.login_cancel{
+	margin:10px;
+	padding: 10px;
+	border-radius: 5px;
+	font-size:20px;
+	border:none;
+	outline:none;
+	color:white;
+	transition: 200px;
+	background-color: #FF0A54;
+}
+
+.login_submit{
+	margin:10px;
+	padding: 10px;
+	border-radius: 5px;
+	font-size:20px;
+	border:none;
+	outline:none;
+	color:white;
+	transition: 200px;
+	background-color: #00B4D8;
+}
+
+.submit_form{
+	width: 400px;
+	min-height:45vh;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: left;
+	padding: 20px;
+	border-left:solid 2px #FF0A54;
+	border-bottom:solid 2px #FF0A54;
+	border-right:solid 2px #00B4D8;
+	border-top:solid 2px #00B4D8;
+	align-self: center;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	overflow-y: auto;
+}
+
+.submit_input{
+	font-size: 18px;
+	padding: 10px;
+	margin:5px;
+	border-bottom:solid 2px #FF0A54;
+	outline: none;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+
+}
+
+.submit_submit_div{
+	display:flex;
+	flex-direction:row;
+	justify-content: flex-end;
+}
+
+.submit_cancel{
+	margin:10px;
+	padding: 10px;
+	border-radius: 5px;
+	font-size:20px;
+	border:none;
+	outline:none;
+	color:white;
+	transition: 200px;
+	background-color: #FF0A54;
+}
+
+.submit_submit{
+	margin:10px;
+	padding: 10px;
+	border-radius: 5px;
+	font-size:20px;
+	border:none;
+	outline:none;
+	color:white;
+	transition: 200px;
+	background-color: #00B4D8;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+.links{
+	text-decoration: none;
+	color:white;
+	padding:10px 60px;
+}
+
+.signup_dialog h3{
+	margin: 0px
+}
+.submit_form input{
+		font-size:15px;
+		padding:5px;
+}
+
+input,select{
+	outline:none;
+}
+
